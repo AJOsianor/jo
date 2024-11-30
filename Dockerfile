@@ -1,3 +1,5 @@
+cd /"C:\Users\USER\Documents\Cleaned_Untitled7.py"
+
 docker build -t my-app .
 
 # Use an official Python runtime as the base image
@@ -28,3 +30,5 @@ numpy
 scikit-learn
 matplotlib
 seaborn
+
+sudo systemctl restart docker
